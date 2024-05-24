@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blur-background {
+    filter: blur(5px); /* Adjust blur intensity as needed */
+}
+
+.custom-modal {
+    max-height: 50%; /* Adjust this value as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh; /* Center vertically */
+    margin-top: 170px;
+}

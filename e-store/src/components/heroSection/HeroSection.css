@@ -1,0 +1,4 @@
+.img-responsive {
+    max-width: 100%; /* Set maximum width to 100% of the container */
+    height: auto; /* Allow the height to adjust proportionally */
+}
